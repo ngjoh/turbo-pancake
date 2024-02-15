@@ -1,0 +1,21 @@
+{
+  "current": {
+    "tenant": "christianiabpos",
+    "name": "sharepoint-branding",
+    "sharepoint": "365adm",
+    "gitorg": "365admin",
+    "mongo": "prod2"
+  },
+
+  "sharepoint": [
+    { "tenant": "365adm", "site": "/sites/intra365" },
+    { "tenant": "christianiabpos", "site": "/sites/cava3" }
+  ],
+  "taxonomy": {
+    "docusaurus": ["zz"]
+  },
+  "mongo": [
+    { "cluster": "prod2", "database": "magicbox-365adm" },
+    { "cluster": "test2", "database": "magicbox-365adm" }
+  ]
+}
